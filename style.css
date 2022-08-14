@@ -3,19 +3,35 @@ body {
     background-size: cover;
 }
 
-h2, p {
-    color: #AA4139;
+h2 {
+    color: blue;
+}
+
+h2 p {
+    color: blanchedalmond;
     text-align: center;
-    border: 5px solid black;
+    border: 5px solid white;
     cursor: pointer;
 }
 
 p {
-    color: green;
+    color: white;
 }
 
 li {
     list-style: none;
     display: inline-block;
+    color: aliceblue;
+    list-style: none;
 }
+
+ul:last-child {
+    color: red;
+}
+
+.webtext {
+    border: dashed white;
+}
+
+
 
